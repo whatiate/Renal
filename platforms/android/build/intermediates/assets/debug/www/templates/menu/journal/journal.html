@@ -1,0 +1,51 @@
+<ion-view view-title="PersonalInfo" hide-nav-bar="true">
+    <ion-header-bar class="bar-light appbackground"   align-title="center" style="border-color: #ed1c24;background-image: linear-gradient(0deg, #ed1c24, #ed1c24 50%, transparent 50%);">
+		<div class="buttons">
+			<button class="button button-icon button-clear left-buttons app-color" menu-toggle="left"  style="display: block !important;">
+                    <img style="width: 21px;padding-top: 3px;" src="img/menu.png" alt="">
+            </button>
+		</div>
+		<h1  class="title white roboto" style="text-align: center;text-overflow: ellipsis;white-space: nowrap;font-size: 17px;font-weight: normal;line-height: 44px;">My journal</h1>
+    <div class="buttons">
+			<button class="button button-icon button-clear right-buttons ion-plus-circled white" ui-sref="menu.search" style="display: block !important;font-size: 29px !important;">
+                   
+            </button>
+		</div>
+	</ion-header-bar>
+    
+  <ion-content class="has-header pagebackground roboto">
+    
+
+     <div class="card padding_16" ng-repeat="x in journal_data">
+        <div style="font-size: 17px;font-weight: 700;color: #ed1c24;white-space: nowrap;text-overflow: ellipsis;overflow: hidden !important;">
+          {{x.productname}}</div>
+        <hr>
+        <div style="color: #424242;font-size: 13px;">
+
+            <div>{{x.fluids}} : {{x.fluids_value}} MG</div>
+            <div>{{x.energy}} : {{x.energy_value}} {{x.energy}} </div>
+            <div>{{x.protein}} : {{x.protein_value}} MG</div>
+            <div>{{x.fat}} : {{x.fat_value}} G</div>
+            <div>{{x.carbohydrates}} : {{x.carbohydrates_value}} MG</div>
+            <div>{{x.calcium}} : {{x.calcium_value}} MG</div>
+            <div>{{x.phosphorus}} : {{x.phosphorus_value}} MG</div>
+            <div>{{x.potassium}} : {{x.potassium_value}} MG</div>
+            <div>{{x.sodium}} : {{x.sodium_value}} MG</div>
+         
+        </div>
+        <button class="button btn_remove" ng-click="removemyfood($index)">
+         Remove
+        </button>
+    </div>
+
+
+
+    <div class="no_any" ng-if="journal_data==null || journal_data=='' || journal_data.length<=0">
+      <!--No Any Food added into your journal-->
+      Your Journal is Currently Empty
+    </div>
+
+
+
+  </ion-content>
+</ion-view>

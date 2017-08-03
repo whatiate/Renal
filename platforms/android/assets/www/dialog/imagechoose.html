@@ -1,0 +1,23 @@
+<div class="agepopup" style="height: 185px;" ng-controller="personalinfoCtrl"> <!--main Div -->
+
+<div class="appbackground white textcenter popup_headerbar roboto"> 
+    <div class="row padding_0" style="height:40px">
+        <div class="col col-17 padding_0"></div>
+        <div class="col padding_0" style="line-height: 47px;">Choose Image</div>
+        <div class="col col-17 padding_0"><img src="img/close.png" alt="close" style="height: 22px;margin: 9px;float: right;" ng-click="hdialog()"></div>
+    </div>
+</div>
+
+            <div class="row" style="    padding-top: 70px;">
+				<div class="col" ng-click="PickImageFromCamera();hdialog()">
+                    <img src="img/Camera-96.png" alt="" style="height: 45px;margin: auto;display: table;padding-left: 20px;">
+                    <div style="text-align: center;padding-left: 20px;color: #3c3c3c;">Camera</div>
+                </div>
+				<div class="col" ng-click="PickImageFromGallery();hdialog()">
+                    <img src="img/Picture-96.png" alt="" style="height: 45px;margin: auto;display: table;padding-right: 20px;">
+                    <div style="text-align: center;padding-right: 20px;color: #3c3c3c;">Gallery</div>
+                </div>
+			</div>
+
+</div> <!-- # main Div -->
+

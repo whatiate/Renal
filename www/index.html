@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title></title>
+  <meta http-equiv="Content-Security-Policy">
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/scrollbar-hide.css" rel="stylesheet">
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+  <!-- ionic/angularjs js -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+  <!-- firebase -->
+  <!-- AngularJS -->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>-->
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+
+<!-- AngularFire -->
+<script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+  <!--<script src="lib/firebase/firebase.js"></script>-->
+  <!--<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>-->
+  <!--<script src="lib/firebase-util/dist/firebase-util.min.js"></script>-->
+  <!--<script src="lib/angularfire/dist/angularfire.min.js"></script>-->
+  <!-- angular-messages -->
+  <script src="lib/angular-messages/angular-messages.min.js"></script>
+  <!-- moment + angular-moment -->
+  <script src="lib/moment/moment.js"></script>
+  <script src="lib/angular-moment/angular-moment.js"></script>
+  <!-- lodash -->
+  <script src="lib/lodash/lodash.js"></script>
+  <!-- aws-sdk-js -->
+  <script src="lib/aws-sdk/dist/aws-sdk.js"></script>
+  <!-- exif-js -->
+  <script src="lib/exif-js/exif.js"></script>
+  <!-- ngCordova -->
+  <!--<script src="lib/ngCordova/dist/ng-cordova.js"></script>-->
+  <script src="js/ng-cordova.js"></script>
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+
+  <script src="js/ionic.cloud.min.js"></script>
+  <!-- your app's js -->
+  <script src="js/chart.min.js"></script>
+  <script src="js/angular-chart.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/controllers/login-controller.js"></script>
+  <script src="js/controllers/create-account-controller.js"></script>
+  <script src="js/controllers/account-controller.js"></script>
+  <script src="js/controllers/meal-user-profile-controller.js"></script>
+  <script src="js/controllers/meal-list-controller.js"></script>
+  <script src="js/controllers/meal-comments-controller.js"></script>
+  <script src="js/controllers/meal-track-controller.js"></script>
+
+  <script src="js/controllers/mainCtrl.js"></script>
+
+  <script src="templates/menu/daily/dailyCtrl.js"></script>
+  <script src="templates/menu/journal/journalCtrl.js"></script>
+  <script src="templates/menu/personalinfo/personalinfoCtrl.js"></script>
+  <script src="templates/menu/pointsresults/pointsresultsCtrl.js"></script>
+  <script src="templates/menu/search/searchCtrl.js"></script>
+  <script src="templates/menu/overview/overviewCtrl.js"></script>
+
+  <script src="js/services/auth-service.js"></script>
+  <script src="js/services/meal-service.js"></script>
+  <script src="js/services/aws-service.js"></script>
+  <script src="js/services/location-service.js"></script>
+  <script src="js/services/util-service.js"></script>
+  <script src="js/filters/mealtime.js"></script>
+
+<script src="https://cdn.jsdelivr.net/jquery/1.11.3/jquery.min.js"></script>
+<!--<link href="https://cdn.jsdelivr.net/jquery.roundslider/1.3/roundslider.min.css" rel="stylesheet" />-->
+                                    
+<!--<script src="https://cdn.jsdelivr.net/jquery.roundslider/1.3/roundslider.min.js"></script>-->
+<script src="js/slider/roundslider.min.js"></script>
+
+
+
+    <!--<script src="js/material/angular-animate.min.js"></script>-->
+    <script src="js/material/angular-aria.min.js"></script>
+    <script src="js/material/angular-material.js"></script>
+    <script src="js/material/angular-messages.min.js"></script>
+    <script src="js/material/angular-route.min.js"></script>
+    <script src="js/material/svg-assets-cache.js"></script>
+
+
+
+
+
+</head>
+
+<body ng-app="whatiate" class="platform-android platform-cordova platform-webview" ng-controller="mainCtrl">
+  <ion-nav-bar class="appbackground white">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+  <ion-nav-view></ion-nav-view>
+
+  <script>
+          var config = {
+          apiKey: "AIzaSyDcqqhdegSUlaD2nXA6qpOcGVYyX89KddU",
+          authDomain: "whatiate-d5b2f.firebaseapp.com",
+          databaseURL: "https://whatiate-d5b2f.firebaseio.com",
+          projectId: "whatiate-d5b2f",
+          storageBucket: "whatiate-d5b2f.appspot.com",
+          messagingSenderId: "625805256500"
+        };
+        firebase.initializeApp(config);
+        var storage = firebase.storage();
+        // console.log(storage)
+  </script>
+
+
+
+</body>
+
+</html>

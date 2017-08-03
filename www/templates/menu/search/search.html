@@ -1,0 +1,88 @@
+<ion-view view-title="PersonalInfo" hide-nav-bar="true">
+    <ion-header-bar class="bar-light appbackground"   align-title="center" style="border-color: #ed1c24;background-image: linear-gradient(0deg, #ed1c24, #ed1c24 50%, transparent 50%);">
+		<div class="buttons" ng-click="hea=false;goBack()">
+			<button class="button button-icon button-clear ion-android-arrow-back left-buttons white"  style="display: block !important;">
+                    <!--<img style="width: 21px;padding-top: 3px;" src="img/menu.png" alt="">-->
+            </button>
+		</div>
+		<h1  class="title white roboto" style="text-align: center;text-overflow: ellipsis;white-space: nowrap;font-size: 17px;font-weight: normal;line-height: 44px;" ng-hide="hea==true">Search</h1>
+        <input type="text" ng-if="hea==true" ng-model="q" class="search_field">
+        <div class="buttons" ng-click="hea=true">
+			<!--<button class="button button-icon button-clear right-buttons app-color"  style="display: block !important;">
+                    <img style="width: 21px;padding-top: 5px;" id="searchimg" src="img/search.png" alt="">
+            </button>-->
+		</div>
+	</ion-header-bar>
+    <div class="bar bar-subheader appbackground" style="padding-top: 0;padding-left: 10px;">
+<form name="searchFoodForm" novalidate="novalidate" ng-submit="search(searchFoodForm)">
+      <div class="row padding_0">
+				<div class="col  padding_0"><input type="text" ng-model="searchFoodFormData.text" class="search_field"></div>
+				<div class="col col-10 padding_0">
+           <button type="submit" class="button appbackground white">
+            <i class="icon ion-search"></i>
+          </button>
+        </div>
+				<div class="col col-10 padding_0"><img style="width: 21px;height: 30px;padding-top: 3px;" src="img/barcode.png" alt="" class="box_center" ng-click="readBarCode(searchFoodForm)"></div>
+			</div>
+</form>
+    </div>
+  <ion-content class="has-header has-subheader pagebackground roboto">
+  
+    
+    
+    <div class="list" ng-show="searchFoodResults.length > 0">
+      <div class="item item-button-right" ng-repeat="item in searchFoodResults">
+        <h2 class="appcolor">{{item.fields.item_name}}</h2>
+        <p>
+          <span ng-if="searchFoodResults">{{item.fields.brand_name}}</span>
+          <span ng-if="item.fields.nf_calories"> - {{item.fields.nf_calories}} cal</span>
+          <span ng-if="item.fields.nf_serving_size_qty"> - {{item.fields.nf_serving_size_qty}}
+          <span ng-if="item.fields.nf_serving_size_unit"> - {{item.fields.nf_serving_size_unit}}</span>
+          </span>
+        </p>
+        <p>
+          <div ng-if="item.fields.nf_total_carbohydrate">{{item.fields.nf_total_carbohydrate}} carbohydrate(g)</div>
+          <div ng-if="item.fields.nf_total_fat"> - {{item.fields.nf_total_fat}} fat(g)</div>
+          <div ng-if="item.fields.nf_protein"> - {{item.fields.nf_protein}} protein(g)</div>
+          <div ng-if="item.fields.nf_calcium_dv"> - {{item.fields.nf_calcium_dv}} calcium(g)</div>
+          <div ng-if="item.fields.nf_sodium"> - {{item.fields.nf_sodium}} sodium(g)</div>
+          <div ng-if="item.fields.nf_calories"> - {{item.fields.nf_calories}} calories(g)</div>
+          <div ng-if="item.fields.nf_water_grams"> - {{item.fields.nf_water_grams}} water(g)</div>
+          <div ng-if="item.fields.nf_potassium"> - {{item.fields.nf_potassium}} potassium(g)</div>
+        </p>
+        <button class="button icon ion-plus-circled appbackground white" ng-click="viewItem(item.fields)"></button>
+        <!--<button class="button icon ion-plus-circled appbackground white" ng-click="addMealItemToList(item)"></button>-->
+      </div>
+    </div>
+
+    <div class="card" ng-hide="searchFoodResults === null || searchFoodResults.length > 0">
+      <div class="item item-text-wrap">
+        Sorry, looks like there are no results. </div>
+    </div>
+
+
+
+
+    <!--<div class="card padding_16 search-card" ng-repeat="x in searchData | filter:q | orderBy:'food.desc.name'">
+        <div style="font-size: 17px;font-weight: 700;color: #ed1c24;white-space: nowrap;text-overflow: ellipsis;overflow: hidden !important;">
+          {{x.food.desc.name}}</div>
+        <hr>
+        <div style="color: #424242;font-size: 13px;">
+          <div ng-repeat="y in x.food.nutrients">
+            <div ng-if="y.name=='Water' || y.name=='Protein' || y.name=='Total lipid (fat)' || y.name=='Calcium, Ca'|| y.name=='Sodium, Na'|| y.name=='Potassium, K'|| y.name=='Carbohydrate, by difference' || y.name=='Phosphorus, P'|| y.name=='Energy' ">
+              {{y.name}} : {{y.value}} {{y.unit}}
+            </div>
+          </div>
+        </div>
+        
+        <button class="button btn_view" ng-click="viewItem(x.food.desc.name,x.food.desc.fg,x.food.nutrients)">
+         View
+        </button>
+    </div>
+    <p ng-show="(searchData | filter:q ).length == 0" class="no_any">
+      There is no Record found !
+    </p>-->
+ 
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,146 @@
+<ion-view view-title="PersonalInfo" hide-nav-bar="true" cache-view="false">
+    <ion-header-bar class="bar-light appbackground"   align-title="center" style="border-color: #ed1c24;background-image: linear-gradient(0deg, #ed1c24, #ed1c24 50%, transparent 50%);">
+		<div class="buttons">
+			<button class="button button-icon button-clear left-buttons app-color" menu-toggle="left"  style="display: block !important;">
+                    <img style="width: 21px;padding-top: 3px;" src="img/menu.png" alt="">
+            </button>
+		</div>
+		<h1  class="title white roboto" style="text-align: center;text-overflow: ellipsis;white-space: nowrap;font-size: 17px;font-weight: normal;line-height: 44px;">Personal Information</h1>
+	</ion-header-bar>
+    
+  <ion-content class="has-header pagebackground">
+      <div class=" appbackground" style="background-image: linear-gradient(0deg, #ed1c24, #ed1c24 50%, transparent 50%);    height: 44px;width: 100%;">
+  
+</div>
+
+   <div>
+           <!--<img src="img/user2.png" id="myImage" alt="user" class="user_img" ng-click="sdialog('image')">-->
+
+           <img ng-if="myprofileImage!='' && myprofileImage!=null" id="myImage" ng-src="{{myprofileImage}}" ng-click="sdialog('image')" onerror="this.src='img/user2.png';" class="user_img"/>
+            <img ng-if="myprofileImage=='' || myprofileImage==null" id="myImage" ng-src="img/user2.png" class="user_img" ng-click="sdialog('image')"/>
+   </div>
+
+
+<div class="roboto personal_info"> <!--main DIV-->
+<form>
+    <ul class="list margin_b0">
+            <li class="item pagebackground padding_1 fontsize_14" style="border-top: 0 !important;">
+                     <div class="row padding_2">
+                    <div class="col col-33 line_height_32 padding_l14">Username</div>
+                    <div class="col col-67">
+                            <input type="text" ng-model="UserData.username" class="usename_text_field width_100p">
+                    </div>
+                </div>
+            </li>
+
+            <li class="item pagebackground padding_1 fontsize_14">
+                    <div class="row padding_2">
+                        <div class="col padding_l14" style="line-height: 33px;">Age</div>
+                        <div class="col">
+                           <input type="tel" ng-model="UserData.age" placeholder="Age" class="usename_text_field width_100p">
+                                <!--<img src="img/icn_arrow .png" alt="user" class="arrow_img">-->
+                        </div>
+                    </div>
+            </li>
+
+            <li class="item pagebackground padding_1 fontsize_14">
+                      <div class="row padding_2">
+                        <div class="col padding_l14">Gender</div>
+                        <div class="col textright">Male &nbsp;<input type="radio" name="gender" ng-model="UserData.gender" value="1" checked>  </div>
+                        <div class="col textright">Female &nbsp;<input type="radio" name="gender" ng-model="UserData.gender" value="0">  </div>
+                    </div>
+            </li>
+            <li class="item pagebackground padding_1 fontsize_14">
+                    <div class="row padding_2">
+                        <div class="col padding_l14" style="line-height: 35px;">Weight (lbs)</div>
+                        <div class="col">
+                                <input type="tel" ng-model="UserData.weight" class="usename_text_field width_100p">
+                        </div>
+                    </div>
+            </li>
+
+            <li class="item pagebackground padding_1 fontsize_14">
+                    <div class="row padding_2">
+                        <div class="col padding_l14" style="line-height: 35px;">Height</div>
+                        <div class="col">
+                                <div class="row padding_0">
+                                    <div class="col padding_0"><input type="tel" ng-model="UserData.heightinfeets"  placeholder="Feet" class="usename_text_field width_100p"></div>
+                                    <div class="col padding_0" style="margin-left: 12px;">
+                                        <input type="tel" ng-model="UserData.heightininche" placeholder="Inches" class="usename_text_field width_100p">
+                                        <!--<select class="height_drop_down">
+                                            <option selected>inches</option>
+                                            <option>feets</option>
+                                        </select>-->
+                                    </div>
+                                </div> 
+                        </div>
+                    </div>
+            </li>
+
+            <li class="item pagebackground padding_1 fontsize_14">
+                     <div class="row padding_2">
+                        <div class="col padding_l14" style="line-height: 33px;">Kidney Stage</div>
+                        <div class="col">
+                             <select ng-model="UserData.kidneystage" class="drop_down">
+                                <option selected="selected"></option>
+                                <option>Stage 1</option>
+                                <option>Stage 2</option>
+                                <option>Stage 3</option>
+                                <option>Stage 4</option>
+                                <option>Stage 5/ESRD</option>
+                            </select>
+                                <!--<img src="img/icn_arrow .png" alt="user" class="arrow_img">-->
+                        </div>
+                    </div>
+            </li>
+
+            <!--<li class="item pagebackground padding_1 fontsize_14">
+                    <div class="row ">
+                        <div class="col">Co-morbid Conditions</div>
+                        <div class="col" ng-click="sdialog('comorbid')">
+                               <div ng-repeat="x in selectedMorbid">
+                                    <div >{{x.Condition}}</div>
+                                </div>
+                        </div>
+                    </div>
+            </li>-->
+            <li class="item pagebackground padding_1 fontsize_14">
+                    <div class="row padding_2">
+                        <div class="col padding_l14">Co-morbid Conditions</div>
+                        <div class="col">
+                            <div><input type="checkbox" ng-model="UserData.morbid.Diabetes" name="morbid1" value="Diabetes"> Diabetes</div>
+                            <div><input type="checkbox" ng-model="UserData.morbid.highbp" name="morbid2" value="High blood pressure"> High blood pressure</div>
+                             <div><input type="checkbox" ng-model="UserData.morbid.Obesity" name="morbid3" value="Obesity"> Obesity</div>   
+                            <div><input type="checkbox" ng-model="UserData.morbid.Smoker" name="morbid4" value="Smoker"> Smoker</div>
+                                
+                                
+                        </div>
+                    </div>
+            </li>
+           
+            
+
+    </ul>
+
+
+
+   <div class="row margin_10_0" style="padding: 5px 40px;">
+       <div class="col">
+            <button class="button white appbackground btns box_center" ng-click="savePersonalInfo()">
+                Save
+            </button>
+       </div>
+       <div class="col">
+           <button type="reset" class="button appcolor btns box_center btn_shadow" style="background-color:#fff" ng-click="myprofileImage=null;resetAlldata()">
+                Reset
+            </button>
+       </div>
+   </div>
+</form>
+
+
+</div><!-- # main DIV-->
+
+
+  </ion-content>
+</ion-view>

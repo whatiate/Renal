@@ -1,0 +1,125 @@
+<ion-view view-title="PersonalInfo" hide-nav-bar="true" cache-view="false">
+    <ion-header-bar class="bar-light appbackground"   align-title="center" style="border-color: #ed1c24;background-image: linear-gradient(0deg, #ed1c24, #ed1c24 50%, transparent 50%);">
+		<div class="buttons">
+			<button class="button button-icon button-clear left-buttons app-color" menu-toggle="left"  style="display: block !important;">
+                    <img style="width: 21px;padding-top: 3px;" src="img/menu.png" alt="">
+            </button>
+		</div>
+		<h1  class="title white roboto" style="text-align: center;text-overflow: ellipsis;white-space: nowrap;font-size: 17px;font-weight: normal;line-height: 44px;">Overview</h1>
+        <div class="buttons" ng-click="openimgdialog()">
+			<button class="button button-icon button-clear left-buttons"  style="display: block !important;">
+                    <img style="width: 27px;padding-top: 6px;" src="img/cams.png" alt="">
+            </button>
+		</div>
+	</ion-header-bar>
+    
+  <ion-content class="has-header pagebackground roboto">
+  
+
+   <div class="date_bar">
+       <div class="row pointer" style="width: 175px;margin: auto;">
+           <div class="col col-10">
+               <img src="img/date_left.png" alt="left_arrow" style="height: 13px;">
+           </div>
+           <div class="col col-80 textcenter" style="text-transform: uppercase;color: #2f302f;font-weight: 900;font-size: 13px;">{{CurrentDate}}
+               <input type="date" style="position: absolute;margin-top: -40px;opacity: 0;">
+           </div>
+           <div class="col col-10">
+                <img src="img/date_right.png" alt="left_arrow" style="height: 13px;">
+           </div>
+       </div>
+   </div>
+
+   
+   <div class="row textcenter height_195">
+       <div class="col col-25">
+           <div style="font-size: 20px;font-weight: 700;color: #2f302f;margin-top: 83px;">{{consumedCalories}}</div>
+           <div style="font-size: 13px;text-transform: uppercase;font-weight: 600;color: #2f302f;">Consumed</div>
+       </div>
+       <div class="col col-50" style="pointer-events: none !important;">
+           <div style="height: 156px;width: 156px;background: radial-gradient(circle closest-side, #7e7e7e, #f7f9f8);;border-radius: 50%;box-shadow: 0px 0px 25px rgba(0, 0, 0,0.21);padding: 12px;margin: auto;margin-top: 18px;">
+                <div id="slider" style="-ms-transform: rotate(-82deg);-webkit-transform: rotate(-82deg);transform: rotate(-82deg);"></div>
+           </div>
+       </div>
+       <div class="col col-25">
+           <div style="font-size: 20px;font-weight: 700;color: #2f302f;margin-top: 83px;">{{remainingCalories}}</div>
+           <div style="font-size: 13px;text-transform: uppercase;font-weight: 600;color: #2f302f;">Remaining</div>
+       </div>
+   </div>
+
+   <div class="burned_cal_cont">Calories burned {{Cal_burned}}</div>
+
+
+    <div style="padding:0px 23px 23px 23px;color:#2e2f2e;" class="fontsize_12"> <!--bars container-->
+
+        <div class="bar_boxes active_kcal">
+            <div class="row" >
+                <div class="col textleft padding_0">CARBOHYDRATES</div>
+                <div class="col textright padding_0">1200</div>
+            </div>
+            <div style="height: 12px;width: 100%;background: #fff;border-radius: 10px;border:1px solid #dbdbdb">
+                <div class="bar_active" style="height: 10px;width: 80%;background: #43b6c3;border-radius: 10px;"></div>
+            </div>
+        </div>
+        
+        <div class="bar_boxes active_protein">
+            <div class="row" ng-style="{'color': proteinBar>=100 ? 'red' : ''}">
+                <div class="col textleft padding_0">PROTEIN ({{proteinBar}}%)</div>
+                <div class="col textright padding_0">{{fixTwo(journalNutrient.prot)}}/{{userRecommendedProtein}} G</div>
+            </div>
+            <div style="height: 12px;width: 100%;background: #fff;border-radius: 10px;border:1px solid #dbdbdb">
+                <div class="bar_active" style="height: 10px;width:{{proteinBar}}%;background: #626362;border-radius: 10px;" ng-hide="proteinBar>=100"></div>
+                <div class="bar_active" style="height: 10px;width:100%;background: #626362;border-radius: 10px;" ng-show="proteinBar>=100"></div>
+            </div>
+        </div>
+
+        <div class="bar_boxes active_sodium">
+            <div class="row" ng-style="{'color': SodiumBar>=100 ? 'red' : ''}">
+                <div class="col textleft padding_0">SODIUM ({{SodiumBar}}%)</div>
+                <div class="col textright padding_0">{{fixTwo(journalNutrient.sodium)}}/{{UserStData.Sodium}} MG</div>
+            </div>
+            <div style="height: 12px;width: 100%;background: #fff;border-radius: 10px;border:1px solid #dbdbdb">
+               <div class="bar_active" style="height: 10px;width:{{SodiumBar}}%;background: #626362;border-radius: 10px;" ng-hide="SodiumBar>=100"></div>
+                <div class="bar_active" style="height: 10px;width:100%;background: #626362;border-radius: 10px;" ng-show="SodiumBar>=100"></div>
+            </div>
+        </div>
+
+        <div class="bar_boxes active_fat">
+            <div class="row" ng-style="{'color': FatBar>=100 ? 'red' : ''}">
+                <div class="col textleft padding_0">FAT ({{FatBar}}%)</div>
+                <div class="col textright padding_0">{{fixTwo(journalNutrient.fat)}}/{{userRecommendedFat}} G</div>
+            </div>
+            <div style="height: 12px;width: 100%;background: #fff;border-radius: 10px;border:1px solid #dbdbdb">
+                <div class="bar_active" style="height: 10px;width:{{FatBar}}%;background: #626362;border-radius: 10px;" ng-hide="FatBar>=100"></div>
+                <div class="bar_active" style="height: 10px;width:100%;background: #626362;border-radius: 10px;" ng-show="FatBar>=100"></div>
+            </div>
+        </div>
+
+        <div class="bar_boxes active_carbs">
+            <div class="row" ng-style="{'color': calciumBar>=100 ? 'red' : ''}">
+                <div class="col textleft padding_0">CALCIUM ({{calciumBar}}%)</div>
+                <div class="col textright padding_0" ng-if="UseInfo.gender == '1'">{{fixTwo(journalNutrient.calc)}}/{{UserStData.Calcium.male}} MG</div>
+                <div class="col textright padding_0" ng-if="UseInfo.gender == '0'">{{fixTwo(journalNutrient.calc)}}/{{UserStData.Calcium.female}} MG</div> 
+            </div>
+            <div style="height: 12px;width: 100%;background: #fff;border-radius: 10px;border:1px solid #dbdbdb">
+                <div class="bar_active" style="height: 10px;width:{{calciumBar}}%;background: #626362;border-radius: 10px;" ng-hide="calciumBar>=100"></div>
+                <div class="bar_active" style="height: 10px;width:100%;background: #626362;border-radius: 10px;" ng-show="calciumBar>=100"></div>
+            </div>
+        </div>
+
+        <div class="bar_boxes active_fluids" style="padding-right: 60px;">
+            <div class="row" ng-style="{'color': fluidsBar>=100 ? 'red' : ''}">
+                <div class="col textleft padding_0">FLUIDS ({{fluidsBar}}%)</div>
+                <div class="col textright padding_0">{{fixTwo(journalNutrient.fluid)}}/{{UserStData.Fluid}} ML</div>
+            </div>
+            <div style="height: 12px;width: 100%;background: #fff;border-radius: 10px;border:1px solid #dbdbdb">
+               <div class="bar_active" style="height: 10px;width:{{fluidsBar}}%;background: #626362;border-radius: 10px;" ng-hide="fluidsBar>=100"></div>
+                <div class="bar_active" style="height: 10px;width:100%;background: #626362;border-radius: 10px;" ng-show="fluidsBar>=100"></div>
+            </div>
+        </div>
+
+        </div><!--#bars container-->
+       <!--<div style="font-size:40px;color:red;text-align:center;font-weight:900"> {{MySteps}}</div>-->
+<img src="img/Add_meal_button.png" alt="Add_meal" class="add_meal_btn" ui-sref="menu.search">
+  </ion-content>
+</ion-view>

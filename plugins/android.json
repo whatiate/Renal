@@ -1,0 +1,69 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        },
+        "cordova-plugin-image-picker": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        },
+        "cordova-plugin-googleplus": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        },
+        "cordova-plugin-facebook4": {
+            "APP_ID": "1904396749778209",
+            "APP_NAME": "whatiate",
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        },
+        "cordova-plugin-pedometer": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        },
+        "es6-promise-plugin": {
+            "PACKAGE_NAME": "com.renaltrkrr.app"
+        }
+    }
+}

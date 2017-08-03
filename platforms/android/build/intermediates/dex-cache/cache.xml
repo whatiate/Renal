@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\TULSI INFOTECH-4\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_fb4f27aa42b34996d0bcb6c9dbe6dc0a3d62f45c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android_Studio\SDK\newsdk\newsdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_adeaaa5739d5b4fa23b6a1b8c812424b537e7c6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="873daaba9b25e7f07376989b900fc46e99a9271c">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_0a0cc60d2ff104e4df53674e4ce71691d1ce2686.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.23.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4504ae3ec47953f3d0c324dc66996aecfb7fbb5c">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.23.0_c9307787de7334a7b3c3552a33669f58beb04c5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_3c3e3ed7846810203a9d0be363c78eec7d243d3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec7d3099b4e3cf23230c78acaae438f3371e1c19">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-10.2.1_8753031d1507184462ac8f4201ef2481f9120f91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_55f7e6aafd171041536686b89ae15327593dc487.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-10.2.1_21faa07250193e48f4446a0726aec63de4e6336a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\barcodescanner\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd90253b55403aaf6ed1c913904d8bc1f19e6ff4">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-barcodescanner_97de8439315b783c00012d9befb51a46cbeef359.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-10.2.1_5c262087a648dbfe1c2efb693571ae83c78db3d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_de3c13d9aadc7652bb67bfb8c68a71a54e07a149.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25f55515117e14a658120a7b01a9ea5170409db4">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-10.2.1_6e48a3bf3f00f39d99f0f930db5db5ab9fe4e958.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_c9e06d5ec72df2c853b7412c3314115262d33bf3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_85f0b3bb8f9bb98e0560aafbcf2088ee92415a0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_c7c799624eb2c4f76991896ac7a2f2b41de25c90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12032271e6be735e811ad529cb08ff066c381640">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-10.2.1_2bac9376150e6ab6c07c23cd33f6b1e53496fef9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_2a64c41f76e9abd42ca2c0db382249ddad4f135d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.3.1_298103ccb2ce22e64fe4377a08dc0d1ed242e49b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\TULSI INFOTECH-4\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_164d2b8ee16730dd057f51b6c4482a2c91e74559.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_428112ab984fa525c32c2cf57e25a1e63d98fa97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-10.2.1_05c5cdff7573ba9e6e6cb66b91d2999843905950.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.android.support\customtabs\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-customtabs-25.3.1_c127f46910cb6c5c2e7721e136caf2c193cc0c99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_9954b41fe02e4bf43342398057ed42963f53c21f.jar" />
+    </item>
+
+</items>

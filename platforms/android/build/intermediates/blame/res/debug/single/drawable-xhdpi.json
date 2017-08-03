@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_remove.png",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\res\\drawable-xhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_previous_item.png",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\res\\drawable-xhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\launcher_icon.png",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\drawable-xhdpi\\launcher_icon.png"
+    },
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_done_dark.png",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\res\\drawable-xhdpi\\ic_action_done_dark.png"
+    },
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_next_item.png",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_discard_light.png",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\res\\drawable-xhdpi\\ic_action_discard_light.png"
+    },
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_done_light.png",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\res\\drawable-xhdpi\\ic_action_done_light.png"
+    },
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_discard_dark.png",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\res\\drawable-xhdpi\\ic_action_discard_dark.png"
+    },
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\res\\drawable-xhdpi\\ic_launcher.png"
+    }
+]

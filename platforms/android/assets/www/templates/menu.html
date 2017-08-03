@@ -1,0 +1,72 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content watch-menu>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-stable appbackground white">
+      <!--<h1 class="title white roboto" style="text-align: center;text-overflow: ellipsis;white-space: nowrap;font-size: 17px;font-weight: normal;line-height: 44px;" ng-if="UserEmailAddress!=null || UserEmailAddress!='' || UserEmailAddress.length>0">{{UserEmailAddress}}</h1>-->
+      <h1 class="title white roboto" style="text-align: center;text-overflow: ellipsis;white-space: nowrap;font-size: 17px;font-weight: normal;line-height: 44px;" >Menu</h1>
+      <!--<div class="loader" ng-if="UserEmailAddress==null || UserEmailAddress=='' || UserEmailAddress.length<=0"></div>-->
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+       
+        <a class="item item-icon-left ripplelink menu_items" menu-close href="#/menu/personalinfo" >
+          <i class="icon ion-person"></i>
+          Personal Information
+        </a>
+        <a class="item item-icon-left  menu_items" menu-close ng-click="goto_dailyrecommondation()" >
+          <i class="icon ion-stats-bars"></i>
+          Daily Recommendation
+        </a>
+        <a class="item item-icon-left  menu_items" menu-close href="#/menu/journal" >
+          <i class="icon ion-ios-bookmarks"></i>
+          My Journal
+        </a>
+        <a class="item item-icon-left  menu_items" menu-close ng-click="goto_overview()" >
+          <i class="icon ion-ios-star"></i>
+          Overview
+        </a>
+        <a class="item item-icon-left  menu_items" menu-close href="#/meals" >
+          <i class="icon ion-android-globe"></i>
+          Blog
+        </a>
+        <a class="item item-icon-left  menu_items" menu-close ng-click="goto_track()" >
+          <i class="icon ion-ios-nutrition"></i>
+          Track
+        </a>
+        <a class="item item-icon-left  menu_items" menu-close ng-click="sdialog('logout')" >
+          <i class="icon ion-log-out"></i>
+          Logout
+        </a>
+          
+       
+        <!--<ion-item menu-close href="#/menu/journal" class="menu_items">
+          My journal
+        </ion-item>-->
+        <!--<ion-item menu-close href="#/menu/daily" class="menu_items">
+          Daily Recommendation
+        </ion-item>-->
+        <!--<ion-item menu-close href="#/app/overview" class="menu_items">
+          Overview
+        </ion-item>-->
+        <!--<ion-item menu-close href="#/app/overview" class="menu_items">
+          Blog
+        </ion-item>
+        <ion-item menu-close href="#/app/overview" class="menu_items">
+          Logout
+        </ion-item>-->
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

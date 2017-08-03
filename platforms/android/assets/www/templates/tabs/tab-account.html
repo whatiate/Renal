@@ -1,0 +1,16 @@
+<ion-view view-title="Account">
+  <ion-nav-buttons side="secondary">
+    <!--<button class="button button-clear" ng-click="logout()">-->
+    <button class="button button-clear" ng-click="sdialog('logout')">
+      <i class="ion-log-out white">&nbsp;Logout</i></button>
+  </ion-nav-buttons>
+  <ion-content padding="true" scroll="false">
+    <div class="list">
+      <div class="item item-thumbnail-left" href="#">
+        <img ng-src="{{profileImageURL}}">
+        <h2 style="font-size: 21px;line-height: 70px;">{{displayName}}</h2>
+        <!--<p>{{user.email}}</p>-->
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

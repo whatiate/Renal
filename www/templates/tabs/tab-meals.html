@@ -1,0 +1,60 @@
+<ion-view view-title="Blog" hide-nav-bar="true">
+  <!--<ion-nav-buttons side="left" ng-click="goBack()">
+                <button class="button button-icon icon ion-android-arrow-back white" ></button>
+</ion-nav-buttons>-->
+<ion-header-bar class="bar-light appbackground"   align-title="center" style="border-color: #ed1c24;background-image: linear-gradient(0deg, #ed1c24, #ed1c24 50%, transparent 50%);">
+		<div class="buttons" ui-sref="menu.overview">
+			<button class="button button-icon button-clear ion-android-arrow-back left-buttons white"  style="display: block !important;">
+                    <!--<img style="width: 21px;padding-top: 3px;" src="img/menu.png" alt="">-->
+            </button>
+		</div>
+		<h1  class="title white roboto" style="text-align: center;text-overflow: ellipsis;white-space: nowrap;font-size: 17px;font-weight: normal;line-height: 44px;" ng-hide="hea==true">Blog</h1>
+       
+	</ion-header-bar>
+  <ion-content>
+    <div class="list card item-card" ng-show="meals && meals.length > 0" ng-repeat="meal in meals">
+      <!--<div class="item item-avatar">-->
+      <!--<div class="item item-avatar" ng-click="goToUserProfile(meal)">-->
+      <div class="item item-avatar" ng-click="goToUserProfile(meal,meal.user.displayName,meal.user.profileImageURL)">
+        <img ng-src="{{meal.user.profileImageURL}}">
+        <h2>{{meal.title}}</h2>
+        <p>
+          <span ng-if="meal.created">
+            {{meal.created | mealtime}} - <span am-time-ago="meal.created"></span>
+          </span>
+          <span ng-if="meal.user.displayName">by&nbsp;{{meal.user.displayName}}</span>
+        </p>
+        <p>
+          <span style="white-space:normal;" ng-if="meal.GPSinfo.geocode">at&nbsp;{{meal.GPSinfo.geocode}}</span>
+          <span style="white-space:normal;" ng-if="meal.GPSinfo.foursquare">at&nbsp;{{meal.GPSinfo.foursquare}}</span>
+          <!-- <img ng-if="meal.GPSinfo.map" class="map" src="{{meal.GPSinfo.map}}"> -->
+        </p>
+      </div>
+      <div class="item item-image" ng-if="meal.imageURL">
+        <img ng-src="{{meal.imageURL}}">
+      </div>
+      <div class="item">
+        <span class="calories">{{meal.calories}}cal</span>
+      </div>
+      <div class="tabs-icon-left">
+        <button class="button button-clear" ng-click="toggleLike(meal)">
+          <i class="icon" ng-class="{'ion-android-favorite': userLikedMeals.indexOf(meal.$id) !== -1, 'ion-android-favorite-outline':userLikedMeals.indexOf(meal.$id) === -1}"></i>
+          <span>{{meal.likes.length}}&nbsp;likes</span>
+        </button>
+        <button class="button button-clear" ui-sref="comments({id: meal.$id})">
+          <i class="icon" ng-class="{'ion-ios-chatbubble': meal.userComment === true, 'ion-ios-chatbubble-outline':meal.userComment !== true}"></i>
+          <span>{{meal.comments.length}}&nbsp;comments</span>
+        </button>
+        <button class="button button-clear" ng-click="share(meal)">
+          <i class="icon ion-ios-upload-outline"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card" ng-hide="meals && meals.length > 0">
+      <div class="item item-text-wrap">
+        There are no records so far. Be the first and post what you ate!
+      </div>
+    </div>
+    <ion-infinite-scroll immediate-check="false" ng-if="moreItemsAvailable" on-infinite="loadMore()" distance="10%"></ion-infinite-scroll>
+  </ion-content>
+</ion-view>

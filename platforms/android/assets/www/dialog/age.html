@@ -1,0 +1,16 @@
+<div class="agepopup" style="height: 363px;" ng-controller="personalinfoCtrl"> <!--main Div -->
+
+<div class="appbackground white textcenter popup_headerbar roboto"> 
+    <div class="row padding_0" style="height:40px">
+        <div class="col col-17 padding_0"><img src="img/true.png" alt="close" style="height: 22px;margin: 9px;float: left;" ng-click="hdialog();saved_age(choice)"></div>
+        <div class="col padding_0" style="line-height: 47px;">Choose Your Age {{choice}}</div>
+        <div class="col col-17 padding_0"><img src="img/close.png" alt="close" style="height: 22px;margin: 9px;float: right;" ng-click="hdialog()"></div>
+    </div>
+</div>
+
+<ion-list>
+  <ion-radio ng-repeat="x in agedata" ng-model="choice" ng-change="checkStuff(x.age)" value="x.age" class="roboto">{{x.age}} year</ion-radio>
+</ion-list>
+
+</div> <!-- # main Div -->
+

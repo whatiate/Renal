@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\libs"><file name="barcodescanner.aar" path="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\libs\barcodescanner.aar"/></source></dataSet><dataSet config="debug"><source path="E:\ionic workspace\WhatIAte Black\Experiment\platforms\android\src\debug\jniLibs"/></dataSet></merger>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]

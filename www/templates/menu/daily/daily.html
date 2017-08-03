@@ -1,0 +1,152 @@
+<ion-view view-title="PersonalInfo" hide-nav-bar="true">
+    <ion-header-bar class="bar-light appbackground"   align-title="center" style="border-color: #ed1c24;background-image: linear-gradient(0deg, #ed1c24, #ed1c24 50%, transparent 50%);">
+		<div class="buttons">
+			<button class="button button-icon button-clear left-buttons app-color" menu-toggle="left"  style="display: block !important;">
+                    <img style="width: 21px;padding-top: 3px;" src="img/menu.png" alt="">
+            </button>
+		</div>
+		<h1  class="title white roboto" style="text-align: center;text-overflow: ellipsis;white-space: nowrap;font-size: 17px;font-weight: normal;line-height: 44px;">Daily Recommendation</h1>
+        <div class="buttons" ng-click="openEditmodal()">
+			<button class="button button-icon button-clear right-buttons app-color"  style="display: block !important;">
+                    <img style="width: 19px;margin-right: 5px;padding-top: 7px;" src="img/edit.png" alt="">
+            </button>
+		</div>
+	</ion-header-bar>
+    
+  <ion-content class="has-header pagebackground roboto">
+  
+   <div style="height:195px;background-color:#ed1c24;padding-top: 7px;">
+
+        <div class="notation_block">
+            <div class="row padding_0 height_28">
+				<div class="col col-22 padding_0 textcenter">
+                    <div class="notation box_center protein_bcolor" style="margin-top: 2px !important;"></div>
+                </div>
+				<!--<div class="col padding_0 textcenter">Protein</div>-->
+				<div class="col padding_0 textleft white fontsize_19 font_900"><span class="fontsize_11">Prot.</span> {{Chart_Protein}}<span class="fontsize_13"> %</span></div>
+			</div>
+            <div class="row padding_0 height_28">
+				<div class="col col-22 padding_0 textcenter">
+                    <div class="notation box_center fat_bcolor" style="margin-top: 2px !important;"></div>
+                </div>
+				<!--<div class="col padding_0 textcenter">Protein</div>-->
+				<div class="col padding_0 textleft white fontsize_19 font_900"><span class="fontsize_11">Fat.</span> {{Chart_Fat}}<span class="fontsize_13"> %</span></div>
+			</div>
+            <div class="row padding_0 height_28">
+				<div class="col col-22 padding_0 textcenter">
+                    <div class="notation box_center carbs_bcolor" style="margin-top: 2px !important;"></div>
+                </div>
+				<!--<div class="col padding_0 textcenter">Protein</div>-->
+				<div class="col padding_0 textleft white fontsize_19 font_900"><span class="fontsize_11">Carbs.</span> {{Chart_Carbs}}<span class="fontsize_13"> %</span></div>
+			</div>
+        </div>
+
+
+
+    <!--<div class="jivadori_1">{{Chart_Protein}}<span class="fontsize_13">%</span></div>
+    <div class="jivadori_2">{{Chart_Fat}}<span class="fontsize_13">%</span></div>
+    <div class="jivadori_3">{{Chart_Carbs}}<span class="fontsize_13">%</span></div>-->
+
+    <!--<img src="img/gola1.png" alt="gola1" class="gola1">
+    <img src="img/gola2.png" alt="gola2" class="gola2">
+    <img src="img/gola3.png" alt="gola3" class="gola3">-->
+
+        <canvas id="doughnut" class="chart chart-doughnut daily_pie_chart"
+            chart-data="data" chart-labels="labels">
+        </canvas> 
+         <div class="pei_chart_datacenter">
+             {{userRecommendedCalery}} <p style="font-size:12px;">KCAL</p>
+         </div>
+            
+         <div class="ripplelink" style="position: absolute;right: 0;" ng-click="resetData()">
+             <img style="width: 22px;float: right;margin: 28px 11px 11px 11px;" src="img/reset.png" alt="">
+         </div>
+   </div>
+
+   <div style="height:10px;background-color:#ed1c24;box-shadow: 0 -5px 5px rgba(51, 51, 51, 0.13);"></div>
+
+   <div class="row padding_0 height_25">
+        <div class="col padding_0 protein_bcolor"></div>
+        <div class="col padding_0 bgblack"></div>
+        <div class="col padding_0 fat_bcolor"></div>
+   </div>
+    
+   <div class="row textcenter padding_t12">
+       <div class="col protein_color">
+           <div class="fontsize_12">PROTEIN</div>
+           <div class="fontsize_20 font_700">{{userRecommendedProtein}} G</div>
+       </div>
+       <div class="col carbs_color">
+           <div class="fontsize_12" style="color:black">SODIUM</div>
+           <div class="fontsize_20 font_700" style="color:black">{{UserStData.Sodium}} MG</div>
+       </div>
+       <div class="col fat_color">
+           <div class="fontsize_12">FAT</div>
+           <div class="fontsize_20 font_700">{{userRecommendedFat}} G</div>
+       </div>
+   </div>
+
+
+    <ul class="list"> 
+        <li class="item pagebackground padding_16_41_16_30">
+            <div class="row padding_0">
+                <div class="col padding_0 textleft">Calcium</div>
+                <div class="col padding_0 textright fontsize_18 font_700" ng-if="UseInfo.gender == '0'">{{UserStData.Calcium.female}}<span class="unit_size"> MG</span></div>
+                <div class="col padding_0 textright fontsize_18 font_700" ng-if="UseInfo.gender == '1'">{{UserStData.Calcium.male}}<span class="unit_size"> MG</span></div>
+            </div>
+            <!--Sodium (mg)-->
+        </li>
+        <li class="item pagebackground padding_16_41_16_30">
+            <div class="row padding_0">
+                <div class="col padding_0 textleft">Phosphorus</div>
+                <div class="col padding_0 textright fontsize_18 font_700">{{UserStData.Phosphorus}}<span class="unit_size"> MG</span></div>
+            </div>
+            <!--Phosphorus (mg)-->
+        </li>
+        <li class="item pagebackground padding_16_41_16_30">
+            <div class="row padding_0">
+                <div class="col padding_0 textleft">Potassium</div>
+                <div class="col padding_0 textright fontsize_18 font_700">{{UserStData.Potassium}}<span class="unit_size"> MG</span></div>
+            </div>
+            <!--Potassium (mg)-->
+        </li>
+        <li class="item pagebackground padding_16_41_16_30">
+            <div class="row padding_0">
+                <div class="col padding_0 textleft">Fluids</div>
+                <div class="col padding_0 textright fontsize_18 font_700">{{UserStData.Fluid}}<span class="unit_size"> ML</span></div>
+            </div>
+            <!--Fluids (ml)-->
+        </li>
+        <li class="item pagebackground padding_16_41_16_30">
+            <div class="row padding_0">
+                <div class="col padding_0 textleft">Steps</div>
+                <div class="col padding_0 textright fontsize_18 font_700" ng-if="UseInfo.gender == '0'">{{UserStData.Steps.female}}<span class="unit_size"></span></div>
+                <div class="col padding_0 textright fontsize_18 font_700" ng-if="UseInfo.gender == '1'">{{UserStData.Steps.male}}<span class="unit_size"></span></div>
+            </div>
+            <!--Fluids (ml)-->
+        </li>
+    </ul>
+
+<!--<button class="button appcolor btns box_center btn_shadow margin_20_0" ng-click="openEditmodal()" style="background-color:#fff">
+                Edit
+            </button>-->
+
+
+    <!--<div class="row margin_20_0" style="padding: 5px 40px;">
+       <div class="col">
+            <button class="button white appbackground btns box_center">
+                Save
+            </button>
+       </div>
+       <div class="col">
+           <button class="button appcolor btns box_center btn_shadow" style="background-color:#fff">
+                Edit
+            </button>
+       </div>
+   </div>-->
+
+
+
+
+  </ion-content>
+</ion-view>

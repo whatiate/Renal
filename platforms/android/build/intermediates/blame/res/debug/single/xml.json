@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\sharing_paths.xml",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\res\\xml\\sharing_paths.xml"
+    },
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\res\\xml\\config.xml"
+    }
+]

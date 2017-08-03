@@ -1,0 +1,3085 @@
+[
+    {
+        "outputFile": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sl\\values-sl.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 106,
+                    "endOffset": 207
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 106,
+                        "endOffset": 157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 212,
+                    "endColumn": 107,
+                    "endOffset": 315
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 107,
+                        "endOffset": 265
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 320,
+                    "endColumn": 122,
+                    "endOffset": 438
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 270,
+                        "endColumn": 122,
+                        "endOffset": 388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 443,
+                    "endColumn": 106,
+                    "endOffset": 545
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 393,
+                        "endColumn": 106,
+                        "endOffset": 495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 550,
+                    "endColumn": 107,
+                    "endOffset": 653
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 500,
+                        "endColumn": 107,
+                        "endOffset": 603
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 658,
+                    "endColumn": 86,
+                    "endOffset": 740
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 608,
+                        "endColumn": 86,
+                        "endOffset": 690
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 745,
+                    "endColumn": 102,
+                    "endOffset": 843
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 695,
+                        "endColumn": 102,
+                        "endOffset": 793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 848,
+                    "endColumn": 118,
+                    "endOffset": 962
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 798,
+                        "endColumn": 118,
+                        "endOffset": 912
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 967,
+                    "endColumn": 84,
+                    "endOffset": 1047
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 917,
+                        "endColumn": 84,
+                        "endOffset": 997
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1052,
+                    "endColumn": 83,
+                    "endOffset": 1131
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1002,
+                        "endColumn": 83,
+                        "endOffset": 1081
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1136,
+                    "endColumn": 83,
+                    "endOffset": 1215
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1086,
+                        "endColumn": 83,
+                        "endOffset": 1165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1220,
+                    "endColumn": 107,
+                    "endOffset": 1323
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1170,
+                        "endColumn": 107,
+                        "endOffset": 1273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1328,
+                    "endColumn": 108,
+                    "endOffset": 1432
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1278,
+                        "endColumn": 108,
+                        "endOffset": 1382
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1437,
+                    "endColumn": 99,
+                    "endOffset": 1532
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1387,
+                        "endColumn": 99,
+                        "endOffset": 1482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1537,
+                    "endColumn": 112,
+                    "endOffset": 1645
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1487,
+                        "endColumn": 112,
+                        "endOffset": 1595
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1650,
+                    "endColumn": 106,
+                    "endOffset": 1752
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1600,
+                        "endColumn": 106,
+                        "endOffset": 1702
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1757,
+                    "endColumn": 103,
+                    "endOffset": 1856
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1707,
+                        "endColumn": 103,
+                        "endOffset": 1806
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1861,
+                    "endColumn": 116,
+                    "endOffset": 1973
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1811,
+                        "endColumn": 116,
+                        "endOffset": 1923
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1978,
+                    "endColumn": 96,
+                    "endOffset": 2070
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1928,
+                        "endColumn": 96,
+                        "endOffset": 2020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2075,
+                    "endColumn": 54,
+                    "endOffset": 2125
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 203,
+                        "endColumn": 54,
+                        "endOffset": 253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2130,
+                    "endColumn": 57,
+                    "endOffset": 2183
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 258,
+                        "endColumn": 57,
+                        "endOffset": 311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2188,
+                    "endColumn": 63,
+                    "endOffset": 2247
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 316,
+                        "endColumn": 63,
+                        "endOffset": 375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2252,
+                    "endColumn": 60,
+                    "endOffset": 2308
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 380,
+                        "endColumn": 60,
+                        "endOffset": 436
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2313,
+                    "endColumn": 58,
+                    "endOffset": 2367
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 441,
+                        "endColumn": 58,
+                        "endOffset": 495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2372,
+                    "endColumn": 50,
+                    "endOffset": 2418
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 500,
+                        "endColumn": 50,
+                        "endOffset": 546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2423,
+                    "endColumn": 72,
+                    "endOffset": 2491
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 551,
+                        "endColumn": 72,
+                        "endOffset": 619
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2496,
+                    "endColumn": 56,
+                    "endOffset": 2548
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 624,
+                        "endColumn": 56,
+                        "endOffset": 676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2553,
+                    "endColumn": 54,
+                    "endOffset": 2603
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 681,
+                        "endColumn": 54,
+                        "endOffset": 731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2608,
+                    "endColumn": 59,
+                    "endOffset": 2663
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 736,
+                        "endColumn": 59,
+                        "endOffset": 791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2668,
+                    "endColumn": 49,
+                    "endOffset": 2713
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 796,
+                        "endColumn": 49,
+                        "endOffset": 841
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2718,
+                    "endColumn": 44,
+                    "endOffset": 2758
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 846,
+                        "endColumn": 44,
+                        "endOffset": 886
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2763,
+                    "endColumn": 63,
+                    "endOffset": 2822
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 891,
+                        "endColumn": 63,
+                        "endOffset": 950
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2827,
+                    "endColumn": 69,
+                    "endOffset": 2892
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 955,
+                        "endColumn": 69,
+                        "endOffset": 1020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2897,
+                    "endColumn": 68,
+                    "endOffset": 2961
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1025,
+                        "endColumn": 68,
+                        "endOffset": 1089
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2966,
+                    "endColumn": 55,
+                    "endOffset": 3017
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1094,
+                        "endColumn": 55,
+                        "endOffset": 1145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3022,
+                    "endColumn": 58,
+                    "endOffset": 3076
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1150,
+                        "endColumn": 58,
+                        "endOffset": 1204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3081,
+                    "endColumn": 68,
+                    "endOffset": 3145
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1209,
+                        "endColumn": 68,
+                        "endOffset": 1273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3150,
+                    "endColumn": 62,
+                    "endOffset": 3208
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1278,
+                        "endColumn": 62,
+                        "endOffset": 1336
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3213,
+                    "endColumn": 60,
+                    "endOffset": 3269
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1341,
+                        "endColumn": 60,
+                        "endOffset": 1397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 3274,
+                    "endColumn": 56,
+                    "endOffset": 3326
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1402,
+                        "endColumn": 56,
+                        "endOffset": 1454
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 3331,
+                    "endColumn": 60,
+                    "endOffset": 3387
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1459,
+                        "endColumn": 60,
+                        "endOffset": 1515
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 3392,
+                    "endColumn": 49,
+                    "endOffset": 3437
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1520,
+                        "endColumn": 49,
+                        "endOffset": 1565
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3442,
+                    "endColumn": 61,
+                    "endOffset": 3499
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1570,
+                        "endColumn": 61,
+                        "endOffset": 1627
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3504,
+                    "endColumn": 60,
+                    "endOffset": 3560
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1632,
+                        "endColumn": 60,
+                        "endOffset": 1688
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3565,
+                    "endColumn": 107,
+                    "endOffset": 3668
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 283,
+                        "endColumn": 103,
+                        "endOffset": 386
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 3673,
+                    "endColumn": 196,
+                    "endOffset": 3865
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 387,
+                        "endColumn": 196,
+                        "endOffset": 583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3870,
+                    "endColumn": 130,
+                    "endOffset": 3996
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 584,
+                        "endColumn": 126,
+                        "endOffset": 710
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 4001,
+                    "endColumn": 108,
+                    "endOffset": 4105
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 711,
+                        "endColumn": 104,
+                        "endOffset": 815
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 4110,
+                    "endColumn": 205,
+                    "endOffset": 4311
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 816,
+                        "endColumn": 205,
+                        "endOffset": 1021
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 4316,
+                    "endColumn": 131,
+                    "endOffset": 4443
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 1022,
+                        "endColumn": 127,
+                        "endOffset": 1149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 4448,
+                    "endColumn": 132,
+                    "endOffset": 4576
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 1150,
+                        "endColumn": 128,
+                        "endOffset": 1278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 4581,
+                    "endColumn": 198,
+                    "endOffset": 4775
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 198,
+                        "endOffset": 483
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 4780,
+                    "endColumn": 216,
+                    "endOffset": 4992
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1279,
+                        "endColumn": 216,
+                        "endOffset": 1495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 4997,
+                    "endColumn": 108,
+                    "endOffset": 5101
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1496,
+                        "endColumn": 104,
+                        "endOffset": 1600
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 5106,
+                    "endColumn": 197,
+                    "endOffset": 5299
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1601,
+                        "endColumn": 197,
+                        "endOffset": 1798
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 5304,
+                    "endColumn": 131,
+                    "endOffset": 5431
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1799,
+                        "endColumn": 127,
+                        "endOffset": 1926
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 5436,
+                    "endColumn": 210,
+                    "endOffset": 5642
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1927,
+                        "endColumn": 210,
+                        "endOffset": 2137
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 5647,
+                    "endColumn": 181,
+                    "endOffset": 5824
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 2138,
+                        "endColumn": 177,
+                        "endOffset": 2315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 5829,
+                    "endColumn": 99,
+                    "endOffset": 5924
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 2316,
+                        "endColumn": 95,
+                        "endOffset": 2411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 5929,
+                    "endColumn": 91,
+                    "endOffset": 6016
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2412,
+                        "endColumn": 87,
+                        "endOffset": 2499
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 6021,
+                    "endColumn": 112,
+                    "endOffset": 6129
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values-sl\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2500,
+                        "endColumn": 108,
+                        "endOffset": 2608
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 6134,
+                    "endColumn": 67,
+                    "endOffset": 6197
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1693,
+                        "endColumn": 67,
+                        "endOffset": 1756
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 6202,
+                    "endColumn": 51,
+                    "endOffset": 6249
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1761,
+                        "endColumn": 51,
+                        "endOffset": 1808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 6254,
+                    "endColumn": 67,
+                    "endOffset": 6317
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1813,
+                        "endColumn": 67,
+                        "endOffset": 1876
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 6322,
+                    "endColumn": 62,
+                    "endOffset": 6380
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1881,
+                        "endColumn": 62,
+                        "endOffset": 1939
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 6385,
+                    "endColumn": 51,
+                    "endOffset": 6432
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1944,
+                        "endColumn": 51,
+                        "endOffset": 1991
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 6437,
+                    "endColumn": 47,
+                    "endOffset": 6480
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1996,
+                        "endColumn": 47,
+                        "endOffset": 2039
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 6485,
+                    "endColumn": 66,
+                    "endOffset": 6547
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 2044,
+                        "endColumn": 66,
+                        "endOffset": 2106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 6552,
+                    "endColumn": 64,
+                    "endOffset": 6612
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 2111,
+                        "endColumn": 64,
+                        "endOffset": 2171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 6617,
+                    "endColumn": 73,
+                    "endOffset": 6686
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 2176,
+                        "endColumn": 73,
+                        "endOffset": 2245
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 6691,
+                    "endColumn": 48,
+                    "endOffset": 6735
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2250,
+                        "endColumn": 48,
+                        "endOffset": 2294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 6740,
+                    "endColumn": 85,
+                    "endOffset": 6821
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2299,
+                        "endColumn": 85,
+                        "endOffset": 2380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 6826,
+                    "endColumn": 57,
+                    "endOffset": 6879
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2385,
+                        "endColumn": 57,
+                        "endOffset": 2438
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 6884,
+                    "endColumn": 51,
+                    "endOffset": 6931
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2443,
+                        "endColumn": 51,
+                        "endOffset": 2490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 6936,
+                    "endColumn": 61,
+                    "endOffset": 6993
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2495,
+                        "endColumn": 61,
+                        "endOffset": 2552
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 6998,
+                    "endColumn": 59,
+                    "endOffset": 7053
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2557,
+                        "endColumn": 59,
+                        "endOffset": 2612
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 7058,
+                    "endColumn": 43,
+                    "endOffset": 7097
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2617,
+                        "endColumn": 43,
+                        "endOffset": 2656
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 7102,
+                    "endColumn": 50,
+                    "endOffset": 7148
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2661,
+                        "endColumn": 50,
+                        "endOffset": 2707
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 7153,
+                    "endColumn": 52,
+                    "endOffset": 7201
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2712,
+                        "endColumn": 52,
+                        "endOffset": 2760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 7206,
+                    "endColumn": 43,
+                    "endOffset": 7245
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 2765,
+                        "endColumn": 43,
+                        "endOffset": 2804
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 7250,
+                    "endColumn": 102,
+                    "endOffset": 7348
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 2809,
+                        "endColumn": 102,
+                        "endOffset": 2907
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 7353,
+                    "endColumn": 146,
+                    "endOffset": 7495
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 2912,
+                        "endColumn": 146,
+                        "endOffset": 3054
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 7500,
+                    "endColumn": 53,
+                    "endOffset": 7549
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 3059,
+                        "endColumn": 53,
+                        "endOffset": 3108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 7554,
+                    "endColumn": 56,
+                    "endOffset": 7606
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 3113,
+                        "endColumn": 56,
+                        "endOffset": 3165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 7611,
+                    "endColumn": 57,
+                    "endOffset": 7664
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 3170,
+                        "endColumn": 57,
+                        "endOffset": 3223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 7669,
+                    "endColumn": 93,
+                    "endOffset": 7758
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 3228,
+                        "endColumn": 93,
+                        "endOffset": 3317
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 7763,
+                    "endColumn": 48,
+                    "endOffset": 7807
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 3322,
+                        "endColumn": 48,
+                        "endOffset": 3366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 7812,
+                    "endColumn": 48,
+                    "endOffset": 7856
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 3371,
+                        "endColumn": 48,
+                        "endOffset": 3415
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 7861,
+                    "endColumn": 109,
+                    "endOffset": 7966
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 3420,
+                        "endColumn": 109,
+                        "endOffset": 3525
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 7971,
+                    "endColumn": 44,
+                    "endOffset": 8011
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 3530,
+                        "endColumn": 44,
+                        "endOffset": 3570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 8016,
+                    "endColumn": 51,
+                    "endOffset": 8063
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 3575,
+                        "endColumn": 51,
+                        "endOffset": 3622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 8068,
+                    "endColumn": 53,
+                    "endOffset": 8117
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 3627,
+                        "endColumn": 53,
+                        "endOffset": 3676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 8122,
+                    "endColumn": 141,
+                    "endOffset": 8259
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 3681,
+                        "endColumn": 141,
+                        "endOffset": 3818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 8264,
+                    "endColumn": 65,
+                    "endOffset": 8325
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 3823,
+                        "endColumn": 65,
+                        "endOffset": 3884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 8330,
+                    "endColumn": 53,
+                    "endOffset": 8379
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 3889,
+                        "endColumn": 53,
+                        "endOffset": 3938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 8384,
+                    "endColumn": 97,
+                    "endOffset": 8477
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3943,
+                        "endColumn": 97,
+                        "endOffset": 4036
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 8482,
+                    "endColumn": 84,
+                    "endOffset": 8562
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 4041,
+                        "endColumn": 84,
+                        "endOffset": 4121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 8567,
+                    "endColumn": 73,
+                    "endOffset": 8636
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 4126,
+                        "endColumn": 73,
+                        "endOffset": 4195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 8641,
+                    "endColumn": 46,
+                    "endOffset": 8683
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 4200,
+                        "endColumn": 46,
+                        "endOffset": 4242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 8688,
+                    "endColumn": 53,
+                    "endOffset": 8737
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 4247,
+                        "endColumn": 53,
+                        "endOffset": 4296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 8742,
+                    "endColumn": 69,
+                    "endOffset": 8807
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 4301,
+                        "endColumn": 69,
+                        "endOffset": 4366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 8812,
+                    "endColumn": 74,
+                    "endOffset": 8882
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 4371,
+                        "endColumn": 74,
+                        "endOffset": 4441
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 8887,
+                    "endColumn": 154,
+                    "endOffset": 9037
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 4446,
+                        "endColumn": 154,
+                        "endOffset": 4596
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 9042,
+                    "endColumn": 69,
+                    "endOffset": 9107
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 4601,
+                        "endColumn": 69,
+                        "endOffset": 4666
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 9112,
+                    "endColumn": 56,
+                    "endOffset": 9164
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 4,
+                        "startOffset": 4671,
+                        "endColumn": 56,
+                        "endOffset": 4723
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 9169,
+                    "endColumn": 87,
+                    "endOffset": 9252
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 4728,
+                        "endColumn": 87,
+                        "endOffset": 4811
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 9257,
+                    "endColumn": 84,
+                    "endOffset": 9337
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 4816,
+                        "endColumn": 84,
+                        "endOffset": 4896
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 9342,
+                    "endColumn": 82,
+                    "endOffset": 9420
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 4901,
+                        "endColumn": 82,
+                        "endOffset": 4979
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 9425,
+                    "endColumn": 95,
+                    "endOffset": 9516
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 4,
+                        "startOffset": 4984,
+                        "endColumn": 95,
+                        "endOffset": 5075
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 9521,
+                    "endColumn": 98,
+                    "endOffset": 9615
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 5080,
+                        "endColumn": 98,
+                        "endOffset": 5174
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 9620,
+                    "endColumn": 83,
+                    "endOffset": 9699
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 5179,
+                        "endColumn": 83,
+                        "endOffset": 5258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 9704,
+                    "endColumn": 83,
+                    "endOffset": 9783
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 5263,
+                        "endColumn": 83,
+                        "endOffset": 5342
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 9788,
+                    "endColumn": 135,
+                    "endOffset": 9919
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 5347,
+                        "endColumn": 135,
+                        "endOffset": 5478
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 9924,
+                    "endColumn": 90,
+                    "endOffset": 10010
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 5483,
+                        "endColumn": 90,
+                        "endOffset": 5569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 10015,
+                    "endColumn": 80,
+                    "endOffset": 10091
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 4,
+                        "startOffset": 5574,
+                        "endColumn": 80,
+                        "endOffset": 5650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 10096,
+                    "endColumn": 74,
+                    "endOffset": 10166
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 4,
+                        "startOffset": 5655,
+                        "endColumn": 74,
+                        "endOffset": 5725
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 10171,
+                    "endColumn": 64,
+                    "endOffset": 10231
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 5730,
+                        "endColumn": 64,
+                        "endOffset": 5790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 10236,
+                    "endColumn": 76,
+                    "endOffset": 10308
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 5795,
+                        "endColumn": 76,
+                        "endOffset": 5867
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 10313,
+                    "endColumn": 70,
+                    "endOffset": 10379
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 5872,
+                        "endColumn": 70,
+                        "endOffset": 5938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 10384,
+                    "endColumn": 63,
+                    "endOffset": 10443
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 5943,
+                        "endColumn": 63,
+                        "endOffset": 6002
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 10448,
+                    "endColumn": 88,
+                    "endOffset": 10532
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 88,
+                        "startColumn": 4,
+                        "startOffset": 6007,
+                        "endColumn": 88,
+                        "endOffset": 6091
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 10537,
+                    "endColumn": 106,
+                    "endOffset": 10639
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 6096,
+                        "endColumn": 106,
+                        "endOffset": 6198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 10644,
+                    "endColumn": 114,
+                    "endOffset": 10754
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 6203,
+                        "endColumn": 114,
+                        "endOffset": 6313
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 10759,
+                    "endColumn": 93,
+                    "endOffset": 10848
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 6318,
+                        "endColumn": 93,
+                        "endOffset": 6407
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 10853,
+                    "endColumn": 84,
+                    "endOffset": 10933
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 6412,
+                        "endColumn": 84,
+                        "endOffset": 6492
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 10938,
+                    "endColumn": 76,
+                    "endOffset": 11010
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 6497,
+                        "endColumn": 76,
+                        "endOffset": 6569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 11015,
+                    "endColumn": 66,
+                    "endOffset": 11077
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 6574,
+                        "endColumn": 66,
+                        "endOffset": 6636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 11082,
+                    "endColumn": 65,
+                    "endOffset": 11143
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 6641,
+                        "endColumn": 65,
+                        "endOffset": 6702
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 11148,
+                    "endColumn": 62,
+                    "endOffset": 11206
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 6707,
+                        "endColumn": 62,
+                        "endOffset": 6765
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 11211,
+                    "endColumn": 171,
+                    "endOffset": 11378
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 6770,
+                        "endColumn": 171,
+                        "endOffset": 6937
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 11383,
+                    "endColumn": 80,
+                    "endOffset": 11459
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 6942,
+                        "endColumn": 80,
+                        "endOffset": 7018
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 11464,
+                    "endColumn": 72,
+                    "endOffset": 11532
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 7023,
+                        "endColumn": 72,
+                        "endOffset": 7091
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 11537,
+                    "endColumn": 102,
+                    "endOffset": 11635
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 7096,
+                        "endColumn": 102,
+                        "endOffset": 7194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 11640,
+                    "endColumn": 71,
+                    "endOffset": 11707
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 7199,
+                        "endColumn": 71,
+                        "endOffset": 7266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 11712,
+                    "endColumn": 135,
+                    "endOffset": 11843
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 7271,
+                        "endColumn": 135,
+                        "endOffset": 7402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 137,
+                    "startColumn": 4,
+                    "startOffset": 11848,
+                    "endColumn": 74,
+                    "endOffset": 11918
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 7407,
+                        "endColumn": 74,
+                        "endOffset": 7477
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 11923,
+                    "endColumn": 55,
+                    "endOffset": 11974
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 7482,
+                        "endColumn": 55,
+                        "endOffset": 7533
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 11979,
+                    "endColumn": 82,
+                    "endOffset": 12057
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 7538,
+                        "endColumn": 82,
+                        "endOffset": 7616
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 12062,
+                    "endColumn": 60,
+                    "endOffset": 12118
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 7621,
+                        "endColumn": 60,
+                        "endOffset": 7677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 12123,
+                    "endColumn": 131,
+                    "endOffset": 12250
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 7682,
+                        "endColumn": 131,
+                        "endOffset": 7809
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 12255,
+                    "endColumn": 85,
+                    "endOffset": 12336
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 7814,
+                        "endColumn": 85,
+                        "endOffset": 7895
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 12341,
+                    "endColumn": 81,
+                    "endOffset": 12418
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 7900,
+                        "endColumn": 81,
+                        "endOffset": 7977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 12423,
+                    "endColumn": 90,
+                    "endOffset": 12509
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 7982,
+                        "endColumn": 90,
+                        "endOffset": 8068
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 12514,
+                    "endColumn": 69,
+                    "endOffset": 12579
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 8073,
+                        "endColumn": 69,
+                        "endOffset": 8138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 12584,
+                    "endColumn": 116,
+                    "endOffset": 12696
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 8143,
+                        "endColumn": 116,
+                        "endOffset": 8255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 12701,
+                    "endColumn": 80,
+                    "endOffset": 12777
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 4,
+                        "startOffset": 8260,
+                        "endColumn": 80,
+                        "endOffset": 8336
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 12782,
+                    "endColumn": 62,
+                    "endOffset": 12840
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 8341,
+                        "endColumn": 62,
+                        "endOffset": 8399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 12845,
+                    "endColumn": 78,
+                    "endOffset": 12919
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 8404,
+                        "endColumn": 78,
+                        "endOffset": 8478
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 12924,
+                    "endColumn": 69,
+                    "endOffset": 12989
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 8483,
+                        "endColumn": 69,
+                        "endOffset": 8548
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 12994,
+                    "endColumn": 64,
+                    "endOffset": 13054
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 8553,
+                        "endColumn": 64,
+                        "endOffset": 8613
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 13059,
+                    "endColumn": 68,
+                    "endOffset": 13123
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 8618,
+                        "endColumn": 68,
+                        "endOffset": 8682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 13128,
+                    "endColumn": 54,
+                    "endOffset": 13178
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 4,
+                        "startOffset": 8687,
+                        "endColumn": 54,
+                        "endOffset": 8737
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 13183,
+                    "endColumn": 57,
+                    "endOffset": 13236
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 8742,
+                        "endColumn": 57,
+                        "endOffset": 8795
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 155,
+                    "startColumn": 4,
+                    "startOffset": 13241,
+                    "endColumn": 56,
+                    "endOffset": 13293
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 4,
+                        "startOffset": 8800,
+                        "endColumn": 56,
+                        "endOffset": 8852
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 13298,
+                    "endColumn": 66,
+                    "endOffset": 13360
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 4,
+                        "startOffset": 8857,
+                        "endColumn": 66,
+                        "endOffset": 8919
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 13365,
+                    "endColumn": 52,
+                    "endOffset": 13413
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 4,
+                        "startOffset": 8924,
+                        "endColumn": 52,
+                        "endOffset": 8972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 158,
+                    "startColumn": 4,
+                    "startOffset": 13418,
+                    "endColumn": 49,
+                    "endOffset": 13463
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 8977,
+                        "endColumn": 49,
+                        "endOffset": 9022
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 159,
+                    "startColumn": 4,
+                    "startOffset": 13468,
+                    "endColumn": 63,
+                    "endOffset": 13527
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 4,
+                        "startOffset": 9027,
+                        "endColumn": 63,
+                        "endOffset": 9086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 160,
+                    "startColumn": 4,
+                    "startOffset": 13532,
+                    "endColumn": 65,
+                    "endOffset": 13593
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 9091,
+                        "endColumn": 65,
+                        "endOffset": 9152
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 13598,
+                    "endColumn": 82,
+                    "endOffset": 13676
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2025,
+                        "endColumn": 82,
+                        "endOffset": 2103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 162,
+                    "startColumn": 4,
+                    "startOffset": 13681,
+                    "endColumn": 100,
+                    "endOffset": 13777
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2108,
+                        "endColumn": 100,
+                        "endOffset": 2204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 13782,
+                    "endColumn": 81,
+                    "endOffset": 13859
+                },
+                "from": {
+                    "file": "E:\\ionic workspace\\WhatIAte Black\\Experiment\\platforms\\android\\build\\intermediates\\exploded-aar\\barcodescanner\\res\\values-sl\\values-sl.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 4,
+                        "startOffset": 9157,
+                        "endColumn": 81,
+                        "endOffset": 9234
+                    }
+                }
+            }
+        ]
+    }
+]

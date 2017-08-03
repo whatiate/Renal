@@ -1,0 +1,42 @@
+<div class="agepopup" style="height: 260px;" ng-controller="personalinfoCtrl"> <!--main Div -->
+
+<div class="appbackground white textcenter popup_headerbar roboto"> 
+
+   
+    <div class="row padding_0" style="height:40px">
+        <div class="col col-17 padding_0"><img src="img/true.png" alt="close" style="height: 22px;margin: 9px;float: left;" ng-click="hdialog();save()"></div>
+        <div class="col padding_0" style="line-height: 40px;">Co-Morbid Condition</div>
+        <div class="col col-17 padding_0"><img src="img/close.png" alt="close" style="height: 22px;margin: 9px;float: right;" ng-click="hdialog()"></div>
+    </div>
+
+    
+    
+    
+</div>
+
+    <ion-list>
+        <ion-checkbox ng-model="checkItems.Diabetes" value="Diabetes" ng-change="print()">Diabetes</ion-checkbox>
+        <ion-checkbox ng-model="checkItems.Highbloodpressure" ng-change="print()">High blood pressure</ion-checkbox>
+        <ion-checkbox ng-model="checkItems.Obesity" ng-change="print()">Obesity</ion-checkbox>
+        <ion-checkbox ng-model="checkItems.Smoker" ng-change="print()">Smoker</ion-checkbox>
+
+
+        <!--<ion-checkbox ng-repeat="item in listPref"
+       ng-model="checkItems[item.text]" ng-change="print()">
+       {{ item.text }}
+   </ion-checkbox>-->
+   <!--<button type="button" name="button" ng-click="save()">Save</button>-->
+    </ion-list>
+
+
+
+
+<!--<ion-list>
+  <ion-radio ng-model="choice" ng-value="'A'" class="roboto">Diabetes</ion-radio>
+  <ion-radio ng-model="choice" ng-value="'A'" class="roboto">High blood pressure</ion-radio>
+  <ion-radio ng-model="choice" ng-value="'A'" class="roboto">Obesity</ion-radio>
+  <ion-radio ng-model="choice" ng-value="'A'" class="roboto">Smoker</ion-radio>
+</ion-list>-->
+
+</div> <!-- # main Div -->
+

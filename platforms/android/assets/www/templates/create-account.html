@@ -1,0 +1,28 @@
+<ion-view view-title="Create Account" hide-nav-bar="false" hide-back-button="false">
+  <ion-content padding="true" class="login-background">
+    <div class="login-container">
+      <div class="row">
+        <div class="col">
+          <form name="createAccoutnForm" ng-submit="createAccount(createAccoutnForm)" novalidate="novalidate">
+            <div class="list list-inset">
+              <label class="item item-input" ng-class="{'has-error':createAccoutnForm.email.$invalid}">
+                <input type="email" name="email" placeholder="Email" ng-model="createAccoutnFormData.email" ng-required="true">
+              </label>
+              <div class="form-errors" ng-messages="createAccoutnForm.email.$error">
+                <div ng-messages-include="templates/form-errors.html"></div>
+              </div>
+              <label class="item item-input" ng-class="{'has-error':createAccoutnForm.password.$invalid}">
+                <input type="password" name="password" placeholder="Password" ng-model="createAccoutnFormData.password" ng-required="true" ng-minlength="5">
+              </label>
+              <div class="form-errors" ng-messages="createAccoutnForm.password.$error">
+                <div ng-messages-include="templates/form-errors.html"></div>
+              </div>
+            </div>
+            <button type="submit" class="button button-block button-dark transparent">
+              Create Account
+            </button>
+          </form>
+        </div>
+      </div>
+  </ion-content>
+</ion-view>

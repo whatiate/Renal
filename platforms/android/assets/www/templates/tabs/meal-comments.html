@@ -1,0 +1,30 @@
+<ion-view view-title="Comments" hide-nav-bar="true">
+  <ion-header-bar class="bar-light appbackground"   align-title="center" style="border-color: #ed1c24;background-image: linear-gradient(0deg, #ed1c24, #ed1c24 50%, transparent 50%);">
+		<div class="buttons" ui-sref="meals">
+			<button class="button button-icon button-clear ion-android-arrow-back left-buttons white"  style="display: block !important;">
+                    <!--<img style="width: 21px;padding-top: 3px;" src="img/menu.png" alt="">-->
+            </button>
+		</div>
+		<h1  class="title white roboto" style="text-align: center;text-overflow: ellipsis;white-space: nowrap;font-size: 17px;font-weight: normal;line-height: 44px;" ng-hide="hea==true">Comments</h1>
+       
+	</ion-header-bar>
+  <ion-content padding="true" scroll="true">
+    <div class="list">
+      <form ng-submit="addComment()">
+        <div class="item item-input-inset">
+          <label class="item-input-wrapper">
+            <input style="width:100%" type="text" placeholder="Your comment text" ng-model="formData.text">
+          </label>
+          <button class="button appbackground white">Submit</button>
+        </div>
+      </form>
+    </div>
+    <div class="list">
+      <div class="item item-avatar" ng-repeat="comment in meal.comments | orderBy: '-created'" ng-click="goToUserProfile(comment)">
+        <img ng-src="{{comment.user.profileImageURL}}">
+        <h2 style="white-space:normal;">{{comment.text}}</h2>
+        <p><span am-time-ago="comment.created"></span> by <span>{{comment.user.displayName}}</span></p>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

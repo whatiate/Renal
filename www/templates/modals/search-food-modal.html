@@ -1,0 +1,50 @@
+<ion-modal-view>
+  <ion-header-bar class="bar bar-header appbackground white">
+    <div class="buttons">
+      <button class="button button-icon icon ion-android-cancel white" ng-click="closeModal()"></button>
+    </div>
+    <h1 class="title white">Search Food</h1>
+  </ion-header-bar>
+  <ion-content>
+    <form name="searchFoodForm" novalidate="novalidate" ng-submit="search(searchFoodForm)">
+      <div class="list">
+        <div class="item item-input-inset">
+          <label class="item-input-wrapper" ng-class="{'has-error':searchFoodForm.text.$invalid}">
+            <input name="text" type="text" placeholder="Food name" ng-model="searchFoodFormData.text" ng-required="true" style="width:100%">
+          </label>
+          <div class="form-errors" ng-messages="searchFoodForm.text.$error">
+            <div ng-messages-include="templates/form-errors.html"></div>
+          </div>
+          <button type="submit" class="button appbackground white">
+            <i class="icon ion-search"></i>
+          </button>
+          <button type="button" class="button appbackground white" ng-click="readBarCode(searchFoodForm)">
+            <i class="icon ion-ios-barcode"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+    <div class="list" ng-show="searchFoodResults.length > 0">
+      <div class="item item-button-right" ng-repeat="item in searchFoodResults">
+        <h2>{{item.fields.item_name}}</h2>
+        <p>
+          <span ng-if="searchFoodResults">{{item.fields.brand_name}}</span>
+          <span ng-if="item.fields.nf_calories"> - {{item.fields.nf_calories}} cal</span>
+          <span ng-if="item.fields.nf_serving_size_qty"> - {{item.fields.nf_serving_size_qty}}
+            <span ng-if="item.fields.nf_serving_size_unit"> - {{item.fields.nf_serving_size_unit}}</span>
+          </span>
+        </p>
+        <p>
+          <span ng-if="item.fields.nf_total_carbohydrate">{{item.fields.nf_total_carbohydrate}} carbohydrate(g)</span>
+          <span ng-if="item.fields.nf_total_fat"> - {{item.fields.nf_total_fat}} fat(g)</span>
+          <span ng-if="item.fields.nf_protein"> - {{item.fields.nf_protein}} protein(g)</span>
+        </p>
+        <button class="button icon ion-plus-circled appbackground white" ng-click="addMealItemToList(item)"></button>
+      </div>
+    </div>
+    <div class="card" ng-hide="searchFoodResults === null || searchFoodResults.length > 0">
+      <div class="item item-text-wrap">
+        Sorry, looks like there are no results. </div>
+    </div>
+  </ion-content>
+</ion-modal-view>

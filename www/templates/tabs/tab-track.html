@@ -1,0 +1,85 @@
+<ion-view view-title="Track Meal" hide-nav-bar="true">
+
+  <ion-header-bar class="bar-light appbackground"   align-title="center" style="border-color: #ed1c24;background-image: linear-gradient(0deg, #ed1c24, #ed1c24 50%, transparent 50%);">
+		<div class="buttons">
+        <button class="button button-icon button-clear left-buttons ion-android-arrow-back white" ng-click="goto_overview()" style="display: block !important;">
+      </button>
+		</div>
+		<h1  class="title white roboto" style="text-align: center;text-overflow: ellipsis;white-space: nowrap;font-size: 17px;font-weight: normal;line-height: 44px;">Track Meal</h1>
+    	<div class="buttons">
+        <button class="button button-icon button-clear right-buttons ion-plus-circled white" style="display: block !important;" ng-click="openModal()">
+      </button>
+			  <button class="button button-icon button-clear right-buttons white" style="display: block !important;" ng-click="mealItemsListOptions.showDelete = !mealItemsListOptions.showDelete;" ng-class="{'ion-ios-minus-outline': mealItemsListOptions.showDelete, 'ion-minus-circled': !mealItemsListOptions.showDelete}">
+        </button>
+		</div>
+	</ion-header-bar>
+
+  <!--<ion-header-bar class="bar-light appbackground"   align-title="center" style="border-color: #ed1c24;background-image: linear-gradient(0deg, #ed1c24, #ed1c24 50%, transparent 50%);">
+		<div class="buttons">
+      <button class="button button-icon button-clear left-buttons ion-plus-circled white" style="display: block !important;" ng-click="openModal()">
+      </button>
+		</div>
+		<h1  class="title white roboto" style="text-align: center;text-overflow: ellipsis;white-space: nowrap;font-size: 17px;font-weight: normal;line-height: 44px;">Track Meal</h1>
+    	<div class="buttons">
+			  <button class="button button-icon button-clear right-buttons white" style="display: block !important;" ng-click="mealItemsListOptions.showDelete = !mealItemsListOptions.showDelete;" ng-class="{'ion-ios-minus-outline': mealItemsListOptions.showDelete, 'ion-minus-circled': !mealItemsListOptions.showDelete}">
+        </button>
+		</div>
+	</ion-header-bar>-->
+
+  <!--<ion-nav-buttons side="left">
+    <button class="button button-icon icon ion-plus-circled white" ng-click="openModal()"></button>
+  </ion-nav-buttons>
+  <ion-nav-buttons side="right">
+    <button class="button button-icon icon white" ng-click="mealItemsListOptions.showDelete = !mealItemsListOptions.showDelete;" ng-class="{'ion-ios-minus-outline': mealItemsListOptions.showDelete, 'ion-minus-circled': !mealItemsListOptions.showDelete}"></button>
+  </ion-nav-buttons>-->
+
+
+  <ion-content class="has-header pagebackground">
+    <ion-list show-delete="mealItemsListOptions.showDelete" can-swipe="true">
+      <ion-item ng-repeat="item in createMealFormData.mealItemsList" class="item-button-right">
+        <h2>{{item.fields.item_name}}<span ng-if="item.fields.qty">&nbsp;x&nbsp;{{item.fields.qty}}</span></h2>
+        <p>
+          <span>{{item.fields.brand_name}}</span>
+          <span ng-if="!item.fields.qty_calories"> - {{item.fields.nf_calories}} kcals</span>
+          <span ng-if="item.fields.qty_calories">{{item.fields.qty_calories}} kcals</span>
+        </p>
+        <ion-option-button class="button button-assertive" ng-click="toggleMealItemQty(item,'more')">More</ion-option-button>
+        <ion-option-button class="button button-balanced" ng-click="toggleMealItemQty(item,'less')">Less</ion-option-button>
+        <ion-delete-button class="ion-minus-circled" ng-click="removeMealItemFromList(item)"></ion-delete-button>
+      </ion-item>
+    </ion-list>
+    <form name="createMealForm" novalidate="novalidate" ng-submit="trackMeal(createMealForm)">
+      <div>
+        <label class="item item-input item-floating-label" ng-class="{'has-error':createMealForm.description.$invalid}">
+          <span class="input-label">Meal Description - {{createMealFormData.calories}} calories in {{createMealFormData.itemsQty}} items</span>
+          <input type="text" name="description" placeholder="Meal Description" ng-model="createMealFormData.description" ng-required="true" style="width:100%">
+        </label>
+        <div class="form-errors" ng-messages="createMealForm.description.$error">
+          <div ng-messages-include="templates/form-errors.html"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <!--<button type="button" class="button appbackground white button-block" ng-click="addPicture('camera')">-->
+          <button type="button" class="button appbackground white button-block" ng-click="PickImageFromCamera('camera')">
+            <i class="icon ion-camera"></i>
+          </button>
+        </div>
+        <div class="col">
+          <!--<button type="button" class="button appbackground white button-block" ng-click="addPicture('photolib')">-->
+          <button type="button" class="button appbackground white button-block" ng-click="PickImageFromGallery('photolib')">
+            <i class="icon ion-images"></i>
+          </button>
+        </div>
+      </div>
+      <div class="padding" ng-show="createMealFormData != null">
+        <div class="picture">
+          <img style="width: 100%;" ng-src="{{createMealFormData.picture}}" alt="" />
+        </div>
+      </div>
+      <div class="padding">
+        <button class="button  button-block appbackground white" type="submit">Save</button>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>
